@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Sandra Mendes</title>
+</head>
+<body>
+    <!--MENU SUPERIOR-->
+    <div id="menu-superior">
+        <a> <img src="./imagens/logo-menor.png" id="logo" alt="ERROR"> </a>
+        <h1 id="titulo-menusuperior">Transformando sua beleza com penteados, especialidade em cabelos loiros, <br> maquiagem e design de sobrancelhas.</h1>
+        <p id="texto-menusuperior"> Realce sua beleza com serviços personalizados. <br> Agende seu horário e experimente cabelos deslumbrantes, <br> maquiagens impecáveis e sobrancelhas perfeitamente desenhadas. <br> Transforme-se com a confiança que você merece! </p>
+    </div>
+    
+    <!--MENU INFORMACIONAl-->
+    <div id="menu-informacional">
+        <p class="textoinformativo"> <img src="icones/icone.svg" class="icone" id="icone1" alt=""> Mecha e luzes </p>
+        <p class="textoinformativo"> <img src="icones/icone.svg" class="icone" id="icone2" alt=""> Químicas </p>
+        <p class="textoinformativo"> <img src="icones/icone.svg" class="icone" id="icone3" alt=""> Makes Profisssionais </p>
+        <p class="textoinformativo"> <img src="icones/icone.svg" class="icone" id="icone1" alt=""> Penteados </p>
+        <p class="textoinformativo"> <img src="icones/icone.svg" class="icone" id="icone1" alt=""> Design de Sobrancelhas </p>
+    </div>
+
+    <!--FOTOS CABELOS-->
+    <div id="secaocabelos">
+        <h1 id="titulocabelos"> Cabelos </h1>
+        <!--CARROSSEL CABELOS-->
+        <div id="sc">
+            <div class="arrow"> <img id="setaesquerda" onclick="RolarParaEsquerda1()" class="seta" src="./icones/setaesquerda.svg" alt="ERROR"> </div>
+            <div id="fcabelos">
+                <img id="cabelo1" class="cabelos" src="./cabelo/cabelo1.png" alt="ERROR">
+                <img id="cabelo2" class="cabelos" src="./cabelo/cabelo2.png" alt="ERROR">
+                <img id="cabelo3" class="cabelos" src="./cabelo/cabelo3.png" alt="ERROR">
+                <img id="cabelo4" class="cabelos" src="./cabelo/cabelo4.png" alt="ERROR">
+            </div>
+            <div class="arrow"> <img id="setadireita" onclick="RolarParaDireita1()" class="seta" src="./icones/setadireita.svg"> </div>
+        </div>
+    </div>
+
+    <!--FOTOS MAQUIAGENS-->
+    <div id="secaomaquiagem">
+        <div id="sc2">
+            <div class="arrow2"> <img id="setaesquerda2" onclick="RolarParaEsquerda2()" class="seta2" src="./icones/setaesquerda.svg"> </div>
+            <div id="fmaquiagem">
+                <img id="maquiagem1" class="maquiagens" src="./maquiagem/maquiagem1.png" alt="ERROR">
+                <img id="maquiagem2" class="maquiagens" src="./maquiagem/maquiagem2.png" alt="ERROR">
+                <img id="maquiagem3" class="maquiagens" src="./maquiagem/maquigem3.png" alt="ERROR">
+                <img id="maquiagem4" class="maquiagens" src="./maquiagem/maquiagem4.png" alt="ERROR">
+            </div>
+            <div class="arrow2"> <img  id="setadireita2" onclick="RolarParaDireita2()" class="seta2" src="./icones/setadireita.svg"> </div>
+        </div>
+    </div>
+
+    <!--BOTÃO-->
+    <div id="ultimasecao">
+        <h1 id="ultimotitulo">Marque Agora e tenha 15% de desconto em qualquer serviço</h1>
+        <form action="https://api.sheetmonkey.io/form/9LMrUH4o6dCc4dAuaNozZt" method="post">
+            <input type="text" placeholder="Nome" name="Name" required> <br>
+            <input type="email" placeholder="Email" name="Email" required> <br>
+            <input type="number" placeholder="Telefone" name="Phone" required> <br>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+            <button type="submit"> Acesse o WhatsApp </button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

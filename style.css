@@ -1,0 +1,185 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+}
+
+#logo{
+    margin-left: 37px;
+    margin-top: 37px;
+}
+
+#titulo-menusuperior{
+    margin-top: 50px;
+    margin-left: 100px;
+    color: rgb(8, 8, 8);
+    font-size: 25px;
+}
+
+#texto-menusuperior{
+    margin-top: 40px;
+    margin-left: 100px;
+    color: rgb(8, 8, 8);
+}
+
+#menu-superior{
+    background-image: url(imagens/mulher5.png);
+    background-size: cover;
+}
+
+#menu-informacional{
+    background-color: #eaece5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icone{
+    margin: 30px 0px 20px 50px;
+    padding: 10px;
+}
+
+.textoinformativo{
+    display: flex;
+    align-items:center;
+}
+
+#secaocabelos{
+    padding: 50px;
+}
+
+#sc{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#titulocabelos{
+    display: none;
+    color:black;
+    text-align: center;
+    font-size: 25px;
+}
+
+#fcabelos{
+    width: 70%; /* Ajuste conforme necessário */
+    margin: 0 auto;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+
+.cabelos{
+    margin: 0 auto;
+}
+
+#setaesquerda{
+    display: none; /* A seta fica invisível, mas ainda ocupa espaço */
+}
+
+#cabelo3{
+    display: none;
+}
+
+#cabelo4{
+    display: none;
+}
+
+.arrow{
+    cursor: pointer;
+    display: flex;
+    align-items: center; /* Alinha o conteúdo da seta verticalmente */
+    justify-content: center; /* Alinha o conteúdo da seta horizontalmente */
+    height: 500px; 
+}
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+#secaomaquiagem{
+    background-color:  #d7d9d2;
+    padding: 50px;
+}
+
+#sc2{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#setaesquerda2{
+    display: none;
+}
+
+#maquiagem3{
+    display: none;
+}
+
+#maquiagem4{
+    display: none;
+}
+
+#fmaquiagem{
+    width: 70%; /* Ajuste conforme necessário */
+    margin: 0 auto;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.maquiagens{
+    margin: 0 auto;
+}
+
+.arrow2{
+    cursor: pointer;
+    display: flex;
+    align-items: center; /* Alinha o conteúdo da seta verticalmente */
+    justify-content: center; /* Alinha o conteúdo da seta horizontalmente */
+    height: 500px; 
+}
+
+.seta2:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+#ultimotitulo{
+    font-size: 25px;
+    margin: 25px;
+    color: black;
+}
+
+#ultimasecao{
+    text-align: center;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    background-color: #eaece5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #08922d;
+    height: 40px;
+    width: 250px;
+    border: 0px;
+    border-radius: 5px;
+    color: #eaece5;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer; 
+}
+
+button:hover{
+    background-color: #077b26;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #05103081;
+    transition-duration: 0.5s; 
+}
